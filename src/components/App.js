@@ -1,9 +1,9 @@
 import React from "react";
-import Nav from "./Nav";
-import BlogsList from "./BlogsList";
-import withLoading from "./withLoading";
-import Pagination from "./Pagination";
-import BlogDetails from "./BlogDetails";
+import Nav from "./Navbar/Nav";
+import BlogsList from "./Blogs/BlogsList";
+import withLoading from "./Utilities/withLoading";
+import Pagination from "./Utilities/Pagination";
+import BlogDetails from "./Blogs/BlogDetails";
 
 import "../App.css";
 
