@@ -105,8 +105,6 @@ class App extends React.Component {
           loading: false,
           currentBlog: blog,
         });
-        console.log(blog.createdAt);
-        console.log(Date.now());
       })
       .catch((err) => console.log(err));
   };
