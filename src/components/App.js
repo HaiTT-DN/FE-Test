@@ -67,7 +67,7 @@ class App extends React.Component {
     this.setState({ sort: e.target.value });
     fetch(
       this.apiUrl +
-        `?search=${this.state.searchTerm}&page=${this.state.pageNumber}&limit=${BLOGS_PER_PAGE}&sortBy=createdAt&order=${this.state.sort}`
+        `?sortBy=createdAt&order=${this.state.sort}&page=${this.state.pageNumber}&limit=${BLOGS_PER_PAGE}&search=${this.state.searchTerm}`
     )
       .then((res) => res.json())
       .then((blogs) => {

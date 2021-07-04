@@ -26,8 +26,8 @@ const SearchArea = (props) => {
         <option disabled value="Sort">
           Sort
         </option>
-        <option value="desc">Oldest</option>
-        <option value="asc">Newest</option>
+        <option value="asc">Oldest</option>
+        <option value="desc">Newest</option>
       </select>
     </form>
   );
